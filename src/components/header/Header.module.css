@@ -1,7 +1,7 @@
 nav {
     background-color: #F9F8FC;
     width: 100%;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +16,16 @@ nav img {
     list-style: none;
     gap: 28px;
     margin-right: 48px;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-.menuItem li:hover {
-    font-weight: 700;
+.menuItem a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menuItem a:hover {
+    font-weight: 300;
     color: #ED3237;
 }
