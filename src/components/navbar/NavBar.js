@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom'
-import Styles from './Header.module.css'
+import Styles from './NavBar.module.css'
 import Logo from '../../img/logo.png'
 
-const Header = () => {
+const NavBar = () => {
   return (
 		<nav>
 			<img src={Logo} alt="Logo" />
@@ -15,4 +15,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default NavBar
