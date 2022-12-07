@@ -1,0 +1,24 @@
+nav {
+    background-color: #F9F8FC;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    margin-left: 48px;
+}
+
+.menuItem {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    margin-right: 48px;
+}
+
+.menuItem li:hover {
+    font-weight: 700;
+    color: #ED3237;
+}
