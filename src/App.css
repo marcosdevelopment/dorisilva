@@ -1,4 +1,17 @@
 * {
   padding: 0;
-  margin: 0
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  margin-left: 20px;
+  color: blueviolet;
 }
