@@ -1,4 +1,5 @@
 import "./PropertyItem.Module.css"
+import {FaWhatsapp} from "react-icons/fa"
 
 const PropertyItem = () => {
   return (
@@ -13,6 +14,14 @@ const PropertyItem = () => {
       <hr />
       <div className="container_propertieItem-village">
         <p>Jardim Paulista - Casa Branca - São Paulo</p>
+      </div>
+      <hr />
+      <div className="container_propertieItem-price">
+        <p>R$ 300,000</p>
+      </div>
+      <div className="container_propertieItem-button">
+        <button className="knowmore"><p> Saiba mais &gt; &gt; </p></button>
+        <button className="whats"><p><FaWhatsapp/></p></button>
       </div>
     </div>
   )
