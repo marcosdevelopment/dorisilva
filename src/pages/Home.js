@@ -8,9 +8,7 @@ const Home = (props) => {
       <PropertyItem/>
       <About/>
       <Creci/>
-    </div>
-    
-    
+    </div> 
   )
 }
 
