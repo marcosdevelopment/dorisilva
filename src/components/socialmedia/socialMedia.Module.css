@@ -1,0 +1,7 @@
+.container_socialmedia {
+  font-size: 30px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}

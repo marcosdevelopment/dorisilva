@@ -1,7 +1,12 @@
+import Creci from "../components/Creci/Creci"
+
 const Properties = () => {
   return (
-    <h1>Imóveis</h1>
-  )
+    <div>
+      <h1>Imóveis</h1>
+      <Creci/>
+    </div>
+  ) 
 }
 
 export default Properties

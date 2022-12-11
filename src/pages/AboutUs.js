@@ -1,6 +1,13 @@
+import About from '../components/About/About'
+import Creci from '../components/Creci/Creci'
+
 const AboutUs = () => {
   return (
-    <h1>Sobre nós</h1>
+    <div>
+      <About/>
+      <Creci/>
+    </div>
+    
   )
 }
 
