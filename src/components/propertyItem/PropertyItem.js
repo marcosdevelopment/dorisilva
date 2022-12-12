@@ -6,7 +6,7 @@ const PropertyItem = () => {
   return (
     <div className="container_propertieItem">
       <img src="https://i.ibb.co/S6cn8Mc/Jardim-Paulista-1.jpg" alt="imagem"/>
-      <h4>APARTAMENTO</h4>
+      <h4>CASA</h4>
       <div className="container_propertieItem-village">
         <p>Jardim Paulista - Casa Branca - São Paulo</p>
       </div>
@@ -21,7 +21,7 @@ const PropertyItem = () => {
         <p><strong>R$ 300,000</strong></p>
       </div>
       <div className="container_propertieItem-buttons">
-        <button className="know">Saiba<FaPlusCircle/></button>
+        <button className="know"><FaPlusCircle/> Informações</button>
         <button className="whats">WhatsAPP <FaWhatsapp/></button>
       </div> 
     </div>
