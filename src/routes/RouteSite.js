@@ -1,7 +1,7 @@
 import {Routes, Route} from 'react-router-dom'
-import Home from '../pages/Home'
-import Properties from '../pages/Properties'
-import AboutUs from '../pages/AboutUs'
+import Home from '../pages/home/Home'
+import Properties from '../pages/properties/Properties'
+import AboutUs from '../pages/aboutUS/AboutUs'
 
 const RouteSite = () => {
   return (

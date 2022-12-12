@@ -1,4 +1,4 @@
-import Creci from "../components/Creci/Creci"
+import Creci from "../../components/creci/Creci"
 
 const Properties = () => {
   return (

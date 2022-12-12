@@ -7,3 +7,17 @@
 .container {
   min-height: 100vh;
 }
+
+.footer {
+  max-height: 900px;
+  bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    max-height: 150px;
+    bottom: 0;
+  }
+}
+
+
