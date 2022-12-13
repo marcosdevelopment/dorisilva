@@ -51,10 +51,10 @@
 
 .container_propertieItem-price {
   width: 100%;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 16px;
-  color: #097A07;
+  color: #000;
 }
 
 .container_propertieItem-buttons {
@@ -76,21 +76,21 @@
 }
 
 .container_propertieItem-buttons .know{
-  background-color: #DFF0FF;
   padding: 10px;
   border-radius: 10px;
 }
 
 .container_propertieItem-buttons .know:hover {
-  color: #0769C5;
+  color: #fff;
+  background-color:  #0769C5;
 }
 
 .container_propertieItem-buttons .whats{
-  background-color: #E6FFDC;
   padding: 10px;
   border-radius: 10px;
 }
 
 .container_propertieItem-buttons .whats:hover {
-  color: #4AAE20;
+  color: #fff;
+  background-color: #4AAE20;
 }

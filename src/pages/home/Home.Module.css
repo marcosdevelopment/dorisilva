@@ -1,0 +1,14 @@
+.container_home {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .container_home {
+    width: 100%;
+    flex-direction: column;
+  }
+}

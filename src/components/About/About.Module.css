@@ -14,4 +14,12 @@
 .container_about p {
   font-size: 1rem;
   line-height: 1.5;
+  text-align: left;
 } 
+
+@media (max-width: 600px) {
+  .container_about {
+    margin-left: 10px;
+    margin-right: 10px;
+  } 
+}

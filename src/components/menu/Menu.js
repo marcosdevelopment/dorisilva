@@ -6,7 +6,7 @@ import {HiInformationCircle} from 'react-icons/hi'
 import './Menu.Module.css'
 
 const Menu = () => {
-  const [active, setMode] = useState(true)
+  const [active, setMode] = useState(false)
   const ToggleMode = () => {
     setMode(!active)
   }
