@@ -5,3 +5,15 @@
   justify-content: center;
   gap: 8px;
 }
+
+.facebook:hover {
+  color: #3A559F;
+}
+
+.instagram:hover {
+  color: #9F37B9;
+}
+
+.whats:hover {
+  color: #4AAE20;
+}

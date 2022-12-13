@@ -1,6 +1,6 @@
 import {BrowserRouter as Router} from 'react-router-dom'
+import Menu from './components/menu/Menu'
 import RouteSite from './routes/RouteSite'
-import NavBar from './components/navbar/NavBar'
 import Footer from './components/footer/Footer'
 import './App.css'
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Router>  
-          <NavBar/>
+          <Menu/>
           <RouteSite/>
         </Router> 
       </div>

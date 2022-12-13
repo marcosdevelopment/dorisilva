@@ -7,9 +7,9 @@ import "./socialMedia.Module.css"
 const SocialMedia = () => {
   return (
     <div className="container_socialmedia" >
-      <FaFacebook/>
-      <FaInstagram/>
-      <FaWhatsapp/>
+      <FaFacebook className="facebook"/>
+      <FaInstagram className="instagram"/>
+      <FaWhatsapp className="whats"/>
     </div>
   )
 }
