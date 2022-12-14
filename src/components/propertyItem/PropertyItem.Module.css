@@ -65,6 +65,10 @@
   gap: 24px;
 }
 
+.container_propertieItem a {
+  text-decoration: none;
+}
+
 .container_propertieItem-buttons button {
   border: none;
   background-color: #fff;
@@ -76,6 +80,7 @@
 }
 
 .container_propertieItem-buttons .know{
+  color: #000;
   padding: 10px;
   border-radius: 10px;
 }

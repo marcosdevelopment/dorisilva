@@ -66,12 +66,12 @@
   margin-top: 5px;
 }
 
-a {
+.container_menu a {
   text-decoration: none;
   color: #fff;
 }
 
-a:hover {
+.container_menu a:hover {
   color: #ED3237;
   padding: 10px;
 }

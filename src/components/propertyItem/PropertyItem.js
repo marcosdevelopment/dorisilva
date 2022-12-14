@@ -1,24 +1,25 @@
 import "./PropertyItem.Module.css"
+import {Link} from 'react-router-dom'
 import {FaWhatsapp} from "react-icons/fa"
 import {FaPlusCircle} from "react-icons/fa"
 
-const PropertyItem = () => {
+const PropertyItem = ({id, mainImg ,type, district, city, state, rooms, bedrooms, restroom, price}) => {
   return (
     <div className="container_propertieItem">
-      <img src="https://i.ibb.co/S6cn8Mc/Jardim-Paulista-1.jpg" alt="imagem"/>
-      <h4>CASA</h4>
+      <img src={mainImg} alt="imagem"/>
+      <h4>{type}</h4>
       <div className="container_propertieItem-village">
-        <p>Jardim Paulista - Casa Branca - São Paulo</p>
+        <p>{district} - {city} - {state}</p>
       </div>
       <hr />
       <div className="container_propertieItem-atributes">
-        <p>Comodos: 04</p>
-        <p>Dormitórios: 02</p>
-        <p>Banheiros: 01</p>
+        <p>Comodos: {rooms}</p>
+        <p>Dormitórios: {bedrooms}</p>
+        <p>Banheiros: {restroom}</p>
       </div>
       <hr />
       <div className="container_propertieItem-price">
-        <p><strong>R$ 300,000</strong></p>
+        <p><strong>R$ {price}</strong></p>
       </div>
       <div className="container_propertieItem-buttons">
         <button className="know"><FaPlusCircle/> Informações</button>
