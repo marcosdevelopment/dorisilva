@@ -4,13 +4,13 @@ import Properties from '../pages/properties/Properties'
 import AboutUs from '../pages/aboutUS/AboutUs'
 import Information from '../pages/information/Information'
 
-const RouteSite = () => {
+const RouteSite = ({id = 0}) => {
   return (
     <Routes>
       <Route exact path='*' element={<Home/>}/>
       <Route path='/imoveis' element={<Properties/>}/>
       <Route path='/sobre' element={<AboutUs/>}/>
-      <Route path='/informaçoes' element={<Information/>}/>
+      <Route path='/informaçoes' element={<Information id={id}/>}/>
     </Routes> 
 
   )

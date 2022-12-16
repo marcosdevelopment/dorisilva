@@ -1,15 +1,18 @@
 import "./PropertyItem.Module.css"
-import {Link} from 'react-router-dom'
 import {FaWhatsapp} from "react-icons/fa"
 import {FaPlusCircle} from "react-icons/fa"
+import { useState } from "react"
 
-const PropertyItem = ({id, mainImg ,type, district, city, state, rooms, bedrooms, restroom, price}) => {
+const PropertyItem = ({id, mainImg ,type, district, city, state, rooms, bedrooms, restroom, price, idPropertie}) => {
+  const [idCard, setIdCard] = useState()
+
+  idPropertie(idCard)
   return (
     <div className="container_propertieItem">
       <img src={mainImg} alt="imagem"/>
       <h4>{type}</h4>
       <div className="container_propertieItem-village">
-        <p>{district} - {city} - {state}</p>
+        <p>{district} - {city} - {state} - {idCard}</p>
       </div>
       <hr />
       <div className="container_propertieItem-atributes">
@@ -22,7 +25,7 @@ const PropertyItem = ({id, mainImg ,type, district, city, state, rooms, bedrooms
         <p><strong>R$ {price}</strong></p>
       </div>
       <div className="container_propertieItem-buttons">
-        <button className="know"><FaPlusCircle/> Informações</button>
+        <button className="know" onClick={() => setIdCard(id)}><FaPlusCircle/> Informações</button>
         <button className="whats">WhatsAPP <FaWhatsapp/></button>
       </div> 
     </div>

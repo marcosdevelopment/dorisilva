@@ -1,13 +1,40 @@
 .container_home {
   width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
 }
 
+.home-properties {
+  display: flex;
+  flex-wrap: wrap;
+  left: 0%;
+}
+
+.home_seeMore {
+  width: 100%;
+  font-size: 64px;
+  border: none;
+  background-color: #fff;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home_seeMore:hover {
+  color: #ED3237;
+}
+
+.home_warning {
+  width: 100%;
+  text-align: center ;
+  font-size: 32px;
+  margin-top: 32px;
+  color: #FF4500;	
+}
+
 @media (max-width: 600px) {
   .container_home {
+    display: flex;
     width: 100%;
     flex-direction: column;
   }

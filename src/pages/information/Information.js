@@ -1,6 +1,7 @@
-const Information = ({id}) => {
+const Information = () => {
   return (
-    <p>Informações {id}</p>
+    
+    <p>Informações</p>
   )
 }
 
