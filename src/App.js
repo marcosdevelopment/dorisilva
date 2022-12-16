@@ -19,7 +19,7 @@ function App() {
             <Route exact path='*' element={<Home/>}/>
             <Route path='/imoveis' element={<Properties/>}/>
             <Route path='/sobre' element={<AboutUs/>}/>
-            <Route path='/informaçoes' element={<Information/>}/>
+            <Route path='/informacoes/:id' element={<Information/>}/>
           </Routes> 
         </Router> 
       </div>

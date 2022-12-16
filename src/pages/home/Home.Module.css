@@ -11,17 +11,20 @@
 }
 
 .home_seeMore {
-  width: 100%;
+  width: 50px;
   font-size: 64px;
   border: none;
   background-color: #fff;
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .home_seeMore:hover {
   color: #ED3237;
+  margin-top: 64px;
 }
 
 .home_warning {

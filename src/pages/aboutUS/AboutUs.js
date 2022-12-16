@@ -4,8 +4,8 @@ import './AboutUs.Module.css'
 const AboutUs = () => {
   return (
     <div>]
-      <h2 className='title'>Escolha seu imovel!</h2>
-      <p className='subtitle'>Escolha um imóvel de sua prefêrencia e que caiba no seu bolso!</p>
+      <h2 className='title'>Quem somos?</h2>
+      <p className='subtitle'>Conheça-nos, e negocie com a gente!</p>
       <About/>
       <Creci/>
     </div>
