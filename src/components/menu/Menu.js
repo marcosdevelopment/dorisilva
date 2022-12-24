@@ -19,9 +19,9 @@ const Menu = () => {
       <div className={active ? "menu menuOpen" : "menu menuClose"}>
         <div className="list">
           <ul className="listItems">
-            <li><Link to="/"><icon><AiFillHome/></icon>Home</Link></li>
-						<li><Link to="/imoveis"><icon><SiHomeassistantcommunitystore/></icon>Imóveis</Link></li>
-						<li><Link to="/sobre"><icon><HiInformationCircle/></icon>Sobre nós</Link></li>
+            <li><Link to="/"><AiFillHome className="menu_icon"/>Home</Link></li>
+						<li><Link to="/imoveis"><SiHomeassistantcommunitystore className="menu_icon"/>Imóveis</Link></li>
+						<li><Link to="/sobre"><HiInformationCircle className="menu_icon"/>Sobre nós</Link></li>
           </ul>
         </div>
       </div>

@@ -2,7 +2,7 @@ const PropertiesData = [
   {
     id: 1,
     status: true,
-    type: 'CASA',
+    type: 'Casa',
     district: 'Jardim Paulista',
     city: 'Casa Branca',
     state: 'São Paulo',
@@ -15,7 +15,7 @@ const PropertiesData = [
     ExternArea: true,
     size: '-',
     price: '300.000,00',
-    obs: 'Área de serviço ampla e com cobertura',
+    observation: 'Área de serviço ampla e com cobertura',
     mainImg: {
       img: 'https://i.ibb.co/frBZY4d/Jardim-Paulista-1.jpg',
       alt: 'Jardim-Paulista-1'
@@ -41,7 +41,7 @@ const PropertiesData = [
   {
     id: 2,
     status: true,
-    type: 'TERRENO',
+    type: 'Terreno',
     district: 'Terra Azul',
     city: 'Pirassununga',
     state: 'São Paulo',
@@ -54,7 +54,7 @@ const PropertiesData = [
     ExternArea: false,
     size: '-',
     price: '90.000,00',
-    obs: '',
+    observation: '',
     mainImg: {
       img: 'https://i.ibb.co/R2MS1HZ/Terra-Azul.jpg',
       alt: 'Terra-Azul.jpg'
@@ -66,7 +66,7 @@ const PropertiesData = [
   {
     id: 3,
     status: true,
-    type: 'CASA',
+    type: 'Casa',
     district: 'Jardim Morumbi',
     city: 'Pirassununga',
     state: 'São Paulo',
@@ -79,7 +79,7 @@ const PropertiesData = [
     ExternArea: true,
     size: '-',
     price: '630.000,00',
-    obs: 'Área gourmet no fundo com 1 bahneiro, um quarto de equipamnento, área coberta, churrasqueira, piscina, salão independente com 25m²',
+    observation: 'Área gourmet no fundo com 1 bahneiro, um quarto de equipamnento, área coberta, churrasqueira, piscina, salão independente com 25m²',
     mainImg: {
       img: 'https://i.ibb.co/SdCYSf7/Jardim-Morumbi-1.jpg',
       alt: 'Jardim-Morumbi-1'
@@ -108,7 +108,7 @@ const PropertiesData = [
   {
     id: 4,
     status: true,
-    type: 'CASA',
+    type: 'Casa',
     district: 'Vila Guilhermina',
     city: 'Pirassununga',
     state: 'São Paulo',
@@ -121,7 +121,7 @@ const PropertiesData = [
     ExternArea: true,
     size: '-',
     price: '210.000,00',
-    obs: 'No fundo da casa contém uma área para churrasqueira, um quartinho, uma pia e um quintal',
+    observation: 'No fundo da casa contém uma área para churrasqueira, um quartinho, uma pia e um quintal',
     mainImg: {
       img: 'https://i.ibb.co/LRvtFss/Vila-Guilhermina-1.jpg',
       alt: 'Vila-Guilhermina-1'

@@ -1,0 +1,28 @@
+.container_propertieInfo {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.propertieInfo_price {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.container_propertieInfo span {
+  font-weight: 700;
+}
+
+.propertieInfo_obs {
+  margin-top: 44px;
+}
+
+@media (max-width: 600px) {
+  .container_propertieInfo {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  } 
+}

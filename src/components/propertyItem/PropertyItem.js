@@ -8,7 +8,7 @@ const PropertyItem = ({id, mainImg ,type, district, city, state, rooms, bedrooms
   return (
     <div className="container_propertieItem">
       <img src={mainImg} alt="imagem"/>
-      <h4>{type}</h4>
+      <h4>{type.toUpperCase()}</h4>
       <div className="container_propertieItem-village">
         <p>{district} - {city} - {state} </p>
       </div>
@@ -24,7 +24,7 @@ const PropertyItem = ({id, mainImg ,type, district, city, state, rooms, bedrooms
       </div>
       <div className="container_propertieItem-buttons">
         <Link to={`/informacoes/${id}`}><button className="know"><FaPlusCircle/> Informações</button></Link>
-        <button className="whats">WhatsAPP <FaWhatsapp/></button>
+        <a href="https://api.whatsapp.com/message/2OHQSIHFUJQ2N1" rel="noreferrer" target="_blank"><button className="whats">WhatsAPP <FaWhatsapp/></button></a>
       </div> 
     </div>
   )
