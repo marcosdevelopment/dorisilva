@@ -60,7 +60,7 @@ const PropertiesData = [
       alt: 'Terra-Azul.jpg'
     },
     img: [
-      {id: 1, img: 'Terra-Azul.jpg', alt: 'Terra-Azul'}
+      {id: 1, img: 'https://i.ibb.co/R2MS1HZ/Terra-Azul.jpg', alt: 'Terra-Azul'}
     ]
   },
   {
@@ -93,7 +93,7 @@ const PropertiesData = [
       {id: 6, img: 'https://i.ibb.co/59Xq2gb/Jardim-Morumbi-6.jpg', alt: 'Jardim-Morumbi-6.jpg'},
       {id: 7, img: 'https://i.ibb.co/rGskx4w/Jardim-Morumbi-7.jpg', alt: 'Jardim-Morumbi-7.jpg'},
       {id: 8, img: 'https://i.ibb.co/0nbgVtw/Jardim-Morumbi-8.jpg', alt: 'Jardim-Morumbi-8.jpg'},
-      {id: 9, img: 'ttps://i.ibb.co/bHLCy8X/Jardim-Morumbi-9.jpg', alt: 'Jardim-Morumbi-9.jpg'},
+      {id: 9, img: 'https://i.ibb.co/bHLCy8X/Jardim-Morumbi-9.jpg', alt: 'Jardim-Morumbi-9.jpg'},
       {id: 10, img: 'https://i.ibb.co/rpDRGXt/Jardim-Morumbi-10.jpg', alt: 'Jardim-Morumbi-10.jpg'},
       {id: 11, img: 'https://i.ibb.co/C2TJb7n/Jardim-Morumbi-11.jpg', alt: 'Jardim-Morumbi-11.jpg'},
       {id: 12, img: 'https://i.ibb.co/zWgjkSR/Jardim-Morumbi-12.jpg', alt: 'Jardim-Morumbi-12.jpg'},

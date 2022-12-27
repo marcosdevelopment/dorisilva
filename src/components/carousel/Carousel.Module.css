@@ -1,0 +1,36 @@
+.container_carousel {
+  width: 100%;
+  max-width: 900px;
+  height: 360px;
+  margin-top: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.carousel {
+  cursor:grab;
+  overflow: hidden;
+}
+
+.carousel_inner {
+  display: flex;
+}
+
+.carousel_item img {
+  width: 720px;
+  height: 360px;
+  padding: 12px;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .container_carousel {
+    height: 180px;
+  }
+  .carousel_item img {
+    width: 360px;
+    height: 180px;
+  }
+}
