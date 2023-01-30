@@ -1,3 +1,10 @@
+
+
+.anuciment-media {
+  margin-top: 24px;
+  color: #fff;
+}
+
 .container_home {
   width: 1000px;
   margin-left: auto;
@@ -35,10 +42,26 @@
   color: #FF4500;	
 }
 
+.home_small {
+  text-align: center;
+  font-size: 12px;
+}
+
 @media (max-width: 600px) {
   .container_home {
     display: flex;
     width: 100%;
     flex-direction: column;
+  }
+
+  .anunciment {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .anunciment-img{
+    width: 100%;
+    height: 100%;
   }
 }

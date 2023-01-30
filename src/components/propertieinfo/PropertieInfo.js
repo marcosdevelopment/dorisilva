@@ -18,15 +18,15 @@ const PropertieInfo = ({id}) => {
             <hr/>
             <p><span>Quartos:</span> {propertieFilter.bedrooms}</p>
             <hr/>
-            <p><span>Banheiros:</span> {propertieFilter.restrooms}</p>
+            <p><span>Banheiros:</span> {propertieFilter.restroom}</p>
             <hr/>
-            <p><span>Sala:</span> {propertieFilter.livingroom}</p>
+            <p><span>Sala:</span> {propertieFilter.livingRoom}</p>
             <hr/>
             <p><span>Cozinha:</span> {propertieFilter.kitchen}</p>
             <hr/>
             <p><span>Garagem:</span> {propertieFilter.garage}</p>
             <hr/>
-            <p><span>Área externa:</span> {propertieFilter.externalArea}</p>
+            <p><span>Área externa:</span> {propertieFilter.ExternArea}</p>
             <hr/>
             <p><span>Tamanho:</span> {propertieFilter.size}</p>
             <hr/>

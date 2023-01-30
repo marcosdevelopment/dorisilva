@@ -76,12 +76,12 @@
   padding: 10px;
 }
 
-.list .listItems {
+.list .listItem {
   padding: 0;
   list-style: none;
 }
 
-.list .listItems li {
+.list .listItem li {
   margin: 2px 0;
   cursor: pointer;
 }
@@ -90,7 +90,7 @@ li {
   margin-left: 10px;
 }
 
-.list .listItems li:hover {
+.list .listItem li:hover {
   background-color: #fff;
 }
 

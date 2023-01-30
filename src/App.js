@@ -1,4 +1,4 @@
-import {BrowserRouter as Router} from 'react-router-dom'
+import {HashRouter as Router} from 'react-router-dom'
 import Menu from './components/menu/Menu'
 import {Routes, Route} from 'react-router-dom'
 import Home from '../src/pages/home/Home'
@@ -13,19 +13,17 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Router>  
+        <Router basename='/'>  
           <Menu/>
           <Routes>
             <Route exact path='*' element={<Home/>}/>
-            <Route path='/imoveis' element={<Properties/>}/>
-            <Route path='/sobre' element={<AboutUs/>}/>
-            <Route path='/informacoes/:id' element={<Information/>}/>
+            <Route exact path='/imoveis' element={<Properties/>}/>
+            <Route exact path='/sobre' element={<AboutUs/>}/>
+            <Route exact path='/informacoes/:id' element={<Information/>}/>
           </Routes> 
         </Router> 
-      </div>
-      <div className="footer">
-        <Footer/>    
-      </div>
+        <Footer/> 
+      </div>   
     </div>
   );
 }

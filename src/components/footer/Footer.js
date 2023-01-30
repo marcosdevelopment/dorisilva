@@ -11,9 +11,9 @@ const Footer = () => {
           <span>Desenvolvido por</span>
         </div>
         <div className="container_footer-data">
-          <p>imagem</p>
-          <p>email@email.com</p>
-          <p>teste</p>
+          <img src={Mtech} alt="Mtech"/>
+          <p>mtech.devtech@gmail.com</p>
+          <SocialMedia Whatsapp="https://wa.me/5519994300555"/>
         </div> 
       </div>
       <div className="container_footer-content">
@@ -21,9 +21,9 @@ const Footer = () => {
           <span>Em parceria com</span>
         </div>
         <div className="container_footer-data">
-          <p>imagem</p>
+          <img src={PubliqueMais} alt="Publique +"/>
           <p>email@email.com</p>
-          <p>teste</p>
+          <SocialMedia Whatsapp="https://wa.me/5519992941366" facebook="https://www.facebook.com/profile.php?id=100072929070585"/>
         </div> 
       </div>
     </div>

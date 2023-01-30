@@ -1,0 +1,39 @@
+.container_propertie{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.select {
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+select {
+  border: solid 1px #fff;
+  height: 48px;
+  outline: none;
+  padding: 10px;
+  background-color: #F5F5F5;
+  margin-left: 5px;
+}
+
+select:focus {
+  border: solid 1px #fff;
+  outline: none;
+}
+
+.select_option{
+  display: flex;
+}
+
+.propertie_item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

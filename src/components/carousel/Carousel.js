@@ -11,7 +11,7 @@ const Carousel = ({id, img}) => {
   useEffect(() => {
     console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
     setWidth (carousel.current?.scrollWidth - carousel.current?.offsetWidth)
-  })
+  },[])
 
   const selectImg = () => {
     const filtered = PropertiesData.filter(propertie => propertie.id === id)
